@@ -26,7 +26,7 @@ const SVGMap = ({
                   }
                 }) => {
 
-  const [paths, setPaths] = useState(<></>);
+  const [paths, setPaths] = useState();
 
   const [matrix, setMatrix] = useState("1, 0, 0, 1, 0, 0");
   const [minX, setMinX] = useState(map.viewBox.minX);
